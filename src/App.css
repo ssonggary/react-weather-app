@@ -1,0 +1,30 @@
+body {
+  background: url(https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg)
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-box {
+  width: 500px;
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 100px 50px;
+  border-radius: 30px;
+  background: azure;
+}
+
+.weather-btn {
+  width: 500px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
